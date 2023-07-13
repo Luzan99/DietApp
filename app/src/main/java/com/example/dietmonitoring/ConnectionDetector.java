@@ -16,7 +16,6 @@ public class ConnectionDetector {
     public static boolean isNetworkAvailable(Context context) {
         if (context == null) return false;
 
-
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
         if (connectivityManager != null) {
