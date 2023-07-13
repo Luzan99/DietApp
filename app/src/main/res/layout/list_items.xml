@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:id="@+id/linear">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: MyTitle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:lines="1"
+        android:id="@+id/txtTitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: Healthy Foods"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/txtCategory"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: This is description"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:lines="2"
+        android:id="@+id/txtDescription"/>
+</LinearLayout>
